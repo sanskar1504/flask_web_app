@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+    web:
+        build: flapp
+        restart: always
+        ports:
+            - 5000:5000
